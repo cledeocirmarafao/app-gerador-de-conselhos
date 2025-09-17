@@ -1,0 +1,24 @@
+@media (max-width: 475px) {
+    
+  .cartao {
+    height: 35%;
+  }
+
+  .cartao .informacoes .titulo {
+    margin-top: 2rem;
+  }
+
+  .cartao .informacoes .conselho {
+    font-size: 1.8rem;
+    width: 35rem;
+  }
+
+  .image{
+    width: 100%;
+  }
+
+  .btn{
+    padding: 1rem;
+    margin-top: -3.5rem;
+  }
+}

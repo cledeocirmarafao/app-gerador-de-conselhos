@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--cor-de-fundo);
+  font-family: "Manrope", sans-serif;
+  overflow: hidden;
+}
+
+.cartao {
+  background-color: var(--cor-cartao);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 1rem;
+  height: 50%;
+  margin: 0 1rem;
+}
+
+.cartao .informacoes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cartao .informacoes .titulo {
+  color: var(--btn-e-texto);
+  margin-top: 4.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.cartao .informacoes .conselho {
+  color: var(--cor-texto);
+  margin: 1rem;
+  padding: 1.5rem ;
+  font-size: 2.5rem;
+  width: 45rem;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 90%;
+}
+
+.btn {
+  background-color: var(--btn-e-texto);
+  border: none;
+  border-radius: 50%;
+  padding: 2rem;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  margin-top: -5rem;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px #53ffaa, 0 0 20px #53ffaa, 0 0 30px #53ffaa;
+}
