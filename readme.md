@@ -37,7 +37,7 @@ Um aplicativo simples que consome a [Advice Slip API](https://api.adviceslip.com
 
 > 🌐 [Deploy do Projeto](#) 
 
-[![Link](https://img.shields.io/badge/🔗-Acesse%20aqui-blue?style=for-the-badge)](aguarde)
+[![Link](https://img.shields.io/badge/🔗-Acesse%20aqui-blue?style=for-the-badge)](https://cledeocirmarafao.github.io/app-gerador-de-conselhos/)
 
 > 🖥️ [Hospedagem](#)
 
@@ -89,7 +89,3 @@ start index.html  # Windows
 
 ## 📄 Licença
 Este projeto é de código aberto e está licenciado sob a licença **[MIT](https://opensource.org/license/mit)**.
-
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
