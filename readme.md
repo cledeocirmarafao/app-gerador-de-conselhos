@@ -7,7 +7,7 @@ Um aplicativo simples que consome a [Advice Slip API](https://api.adviceslip.com
 - Gera conselhos aleatórios ao clicar no botão ou atualizar a página.
 - Responsivo para **desktop** e **mobile**.
 - Design moderno com cores em **neon green**.
-- Acessibilidade básica implementada (`alt`, `aria-label`, `role="status"`).
+- Acessibilidade básica implementada (`alt`, `aria-label`).
 
 ---
 

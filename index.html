@@ -13,10 +13,10 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <!-- <link rel="stylesheet" href="./src/css/responsive.css" /> -->
   </head>
   <body>
-    <main>
+    
       <section
         aria-label="Cartão gerador de conselhos aleatórios"
         class="cartao"
@@ -31,11 +31,11 @@
         </div>
         <picture>
           <source
-            media="(min-width: 476px)"
+            media="(min-width: 769px)"
             srcset="./src/assets/images/pattern-divider-desktop.svg"
           />
           <source
-            media="(max-width: 475px)"
+            media="(max-width: 768px)"
             srcset="./src/assets/images/pattern-divider-mobile.svg"
           />
           <img class="image"
@@ -46,14 +46,13 @@
       </section>
       /
 
-      <button id="button" class="btn" role="status">
+      <button id="button" class="btn" aria-label="Botão para requisição do conselho">
         <img
           class="imagem-btn"
           src="src/assets/images/icon-dice.svg"
           alt="imagem do botão"
         />
       </button>
-    </main>
     <script src="./src/javascript/index.js"></script>
   </body>
 </html>
